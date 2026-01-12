@@ -1,0 +1,64 @@
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.AssemblyInfoInputs.cache
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.AssemblyInfo.cs
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.csproj.CoreCompileInputs.cache
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Automaty z napojami.exe
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Automaty z napojami.deps.json
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Automaty z napojami.runtimeconfig.json
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Automaty z napojami.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Automaty z napojami.pdb
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.csproj.AssemblyReference.cache
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty.8B84F7DB.Up2Date
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\refint\Automaty z napojami.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.pdb
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.genruntimeconfig.cache
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\ref\Automaty z napojami.dll

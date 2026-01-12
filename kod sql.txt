@@ -1,0 +1,113 @@
+-- 1. Tworzenie bazy danych
+CREATE DATABASE vending_machine_71423;
+GO
+USE vending_machine_71423;
+GO
+
+-- 2. Tworzenie tabel
+CREATE TABLE Categories (
+    CategoryID INT PRIMARY KEY IDENTITY(1,1),
+    CategoryName VARCHAR(255) NOT NULL,
+    Manufacturer VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Locations (
+    LocationID INT PRIMARY KEY IDENTITY(1,1),
+    Street VARCHAR(255) NOT NULL,
+    StreetNr INT NOT NULL,
+    City VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Clients (
+    ClientID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName VARCHAR(255) NOT NULL,
+    LastName VARCHAR(255) NOT NULL,
+    phoneNr VARCHAR(20) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Drinks (
+    DrinkID INT PRIMARY KEY IDENTITY(1,1),
+    DrinkName VARCHAR(255) NOT NULL,
+    CategoryID INT NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Volume_ml INT,
+    CONSTRAINT FK_Drinks_Categories FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
+);
+
+CREATE TABLE Technicians (
+    TechnicianID INT PRIMARY KEY IDENTITY(1,1),
+    FirstName VARCHAR(255) NOT NULL,
+    LastName VARCHAR(255) NOT NULL,
+    Salary DECIMAL(20,2) NOT NULL,
+    phoneNr VARCHAR(20) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    LocationID INT NOT NULL,
+    CONSTRAINT FK_Technicians_Locations FOREIGN KEY (LocationID) REFERENCES Locations(LocationID)
+);
+
+CREATE TABLE Transactions (
+    TransactionID INT PRIMARY KEY IDENTITY(1,1),
+    DrinkID INT NOT NULL,
+    ClientID INT NOT NULL,
+    TechnicianID INT NOT NULL, -- Technik odpowiedzialny za automat
+    LocationID INT NOT NULL,
+    sale_date DATETIME NOT NULL DEFAULT GETDATE(),
+    payment_method VARCHAR(50) NOT NULL,
+    CONSTRAINT FK_Transactions_Drinks FOREIGN KEY (DrinkID) REFERENCES Drinks(DrinkID),
+    CONSTRAINT FK_Transactions_Clients FOREIGN KEY (ClientID) REFERENCES Clients(ClientID),
+    CONSTRAINT FK_Transactions_Technicians FOREIGN KEY (TechnicianID) REFERENCES Technicians(TechnicianID),
+    CONSTRAINT FK_Transactions_Locations FOREIGN KEY (LocationID) REFERENCES Locations(LocationID)
+);
+
+-- 3. Wstawianie danych
+
+INSERT INTO Locations (Street, StreetNr, City) VALUES 
+('Dworcowa', 5, 'Warszawa'),
+('Akademicka', 12, 'Kraków'),
+('Rynek', 1, 'Wrocław');
+
+INSERT INTO Categories (CategoryName, Manufacturer) VALUES 
+('Cola', 'Coca-Cola Co'), ('Energy Drink', 'Red Bull'), ('Mineral Water', 'Nestle'), 
+('Orange Juice', 'Tymbark'), ('Ice Tea', 'Lipton'), ('Coffee', 'Lavazza'),
+('Isotonic', 'Oshee'), ('Sparkling Water', 'Perlage'), ('Apple Juice', 'Hortex'), ('Soda', 'PepsiCo');
+
+INSERT INTO Clients (FirstName, LastName, phoneNr, email) VALUES 
+('Jan', 'Kowalski', '6001', 'jan@mail.pl'),
+('Anna', 'Nowak', '6002', 'anna@mail.pl'),
+('Piotr', 'Zieliński', '6003', 'piotr@mail.pl'),
+('Maria', 'Lewandowska', '6004', 'maria@mail.pl'),
+('Paweł', 'Wójcik', '6005', 'pawel@mail.pl'),
+('Krzysztof', 'Kamiński', '6006', 'krzys@mail.pl'),
+('Elena', 'Wiśniewska', '6007', 'elena@mail.pl'),
+('Marek', 'Kozłowski', '6008', 'marek@mail.pl'),
+('Zofia', 'Jankowska', '6009', 'zofia@mail.pl'),
+('Adam', 'Mazur', '6010', 'adam@mail.pl');
+
+INSERT INTO Technicians (FirstName, LastName, Salary, phoneNr, email, LocationID) VALUES 
+('Robert', 'Serwisant', 5500.00, '999111', 'robert@vending.pl', 1),
+('Tomasz', 'Naprawa', 5200.00, '999222', 'tomek@vending.pl', 2),
+('Alicja', 'Kontrola', 5300.00, '999333', 'alicja@vending.pl', 3);
+
+INSERT INTO Drinks (DrinkName, CategoryID, Price, Volume_ml) VALUES 
+('Coca-Cola Classic', 1, 5.50, 500), ('Coca-Cola Zero', 1, 5.50, 500), ('Cherry Coke', 1, 6.00, 500),
+('Red Bull Original', 2, 8.50, 250), ('Red Bull Sugarfree', 2, 8.50, 250), ('Monster Energy', 2, 7.00, 500), ('Tiger', 2, 4.50, 250),
+('Nałęczowianka', 3, 3.00, 500), ('Evian', 3, 6.50, 500), ('San Pellegrino', 3, 7.00, 500), ('Perrier', 3, 7.50, 500), ('Vittel', 3, 4.00, 500),
+('Tymbark Pomarańcza', 4, 4.50, 330), ('Tymbark Jabłko', 9, 4.50, 330), ('Sok Tłoczony', 9, 6.00, 250),
+('Lipton Peach', 5, 5.00, 500), ('Lipton Green Tea', 5, 5.00, 500), ('FuzeTea Lemon', 5, 5.00, 500),
+('Espresso', 6, 6.00, 100), ('Latte Macchiato', 6, 9.00, 250), ('Cappuccino', 6, 8.50, 200),
+('Oshee Blue', 7, 4.00, 750), ('Oshee Vitamin', 7, 4.50, 500),
+('Pepsi', 10, 5.00, 500), ('Mirinda', 4, 5.00, 500), ('7Up', 10, 5.00, 500),
+('Cisowianka Perlage', 8, 3.50, 500), ('Staropolanka', 8, 3.00, 500), ('Dr Pepper', 10, 6.00, 330), ('Mountain Dew', 10, 5.50, 500);
+
+INSERT INTO Transactions (DrinkID, ClientID, TechnicianID, LocationID, sale_date, payment_method) VALUES 
+(1, 1, 1, 1, '2024-05-01 10:00:00', 'Card'),
+(2, 2, 1, 1, '2024-05-01 11:30:00', 'Cash'),
+(8, 3, 2, 2, '2024-05-02 09:15:00', 'Blik'),
+(12, 4, 3, 3, '2024-05-02 14:45:00', 'Card'),
+(21, 5, 1, 1, '2024-05-03 16:20:00', 'Card'),
+(4, 6, 2, 2, '2024-05-04 08:10:00', 'Blik'),
+(24, 7, 3, 3, '2024-05-04 19:30:00', 'Cash'),
+(27, 8, 1, 1, '2024-05-05 12:00:00', 'Card'),
+(15, 9, 2, 2, '2024-05-06 13:00:00', 'Card'),
+(18, 10, 3, 3, '2024-05-07 10:45:00', 'Blik');
