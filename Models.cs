@@ -2,7 +2,6 @@
 
 namespace Automaty_z_napojami
 {
-    // Klasa bazowa
     public class Produkt
     {
         public int Id;
@@ -10,7 +9,6 @@ namespace Automaty_z_napojami
         public decimal Cena;
     }
 
-    // Klasa pochodna
     public class Napoj : Produkt
     {
         public int Pojemnosc;

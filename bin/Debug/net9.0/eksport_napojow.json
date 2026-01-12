@@ -1,0 +1,219 @@
+[
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Cola",
+    "Id": 1,
+    "Nazwa": "Coca-Cola Classic",
+    "Cena": 5.50
+  },
+  {
+    "Pojemnosc": 10,
+    "Kategoria": "Cola",
+    "Id": 2,
+    "Nazwa": "Coca-Cola Zero",
+    "Cena": 1.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Cola",
+    "Id": 3,
+    "Nazwa": "Cherry Coke",
+    "Cena": 6.00
+  },
+  {
+    "Pojemnosc": 250,
+    "Kategoria": "Energy Drink",
+    "Id": 4,
+    "Nazwa": "Red Bull Original",
+    "Cena": 8.50
+  },
+  {
+    "Pojemnosc": 250,
+    "Kategoria": "Energy Drink",
+    "Id": 5,
+    "Nazwa": "Red Bull Sugarfree",
+    "Cena": 8.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Energy Drink",
+    "Id": 6,
+    "Nazwa": "Monster Energy",
+    "Cena": 7.00
+  },
+  {
+    "Pojemnosc": 250,
+    "Kategoria": "Energy Drink",
+    "Id": 7,
+    "Nazwa": "Tiger",
+    "Cena": 4.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Mineral Water",
+    "Id": 8,
+    "Nazwa": "Naleczowianka",
+    "Cena": 3.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Mineral Water",
+    "Id": 9,
+    "Nazwa": "Evian",
+    "Cena": 6.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Mineral Water",
+    "Id": 10,
+    "Nazwa": "San Pellegrino",
+    "Cena": 7.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Mineral Water",
+    "Id": 11,
+    "Nazwa": "Perrier",
+    "Cena": 7.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Mineral Water",
+    "Id": 12,
+    "Nazwa": "Vittel",
+    "Cena": 4.00
+  },
+  {
+    "Pojemnosc": 330,
+    "Kategoria": "Orange Juice",
+    "Id": 13,
+    "Nazwa": "Tymbark Pomarancza",
+    "Cena": 4.50
+  },
+  {
+    "Pojemnosc": 330,
+    "Kategoria": "Apple Juice",
+    "Id": 14,
+    "Nazwa": "Tymbark Jablko",
+    "Cena": 4.50
+  },
+  {
+    "Pojemnosc": 250,
+    "Kategoria": "Apple Juice",
+    "Id": 15,
+    "Nazwa": "Sok Tloczony",
+    "Cena": 6.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Ice Tea",
+    "Id": 16,
+    "Nazwa": "Lipton Peach",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Ice Tea",
+    "Id": 17,
+    "Nazwa": "Lipton Green Tea",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Ice Tea",
+    "Id": 18,
+    "Nazwa": "FuzeTea Lemon",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 100,
+    "Kategoria": "Coffee",
+    "Id": 19,
+    "Nazwa": "Espresso",
+    "Cena": 6.00
+  },
+  {
+    "Pojemnosc": 250,
+    "Kategoria": "Coffee",
+    "Id": 20,
+    "Nazwa": "Latte Macchiato",
+    "Cena": 9.00
+  },
+  {
+    "Pojemnosc": 200,
+    "Kategoria": "Coffee",
+    "Id": 21,
+    "Nazwa": "Cappuccino",
+    "Cena": 8.50
+  },
+  {
+    "Pojemnosc": 750,
+    "Kategoria": "Isotonic",
+    "Id": 22,
+    "Nazwa": "Oshee Blue",
+    "Cena": 4.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Isotonic",
+    "Id": 23,
+    "Nazwa": "Oshee Vitamin",
+    "Cena": 4.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Soda",
+    "Id": 24,
+    "Nazwa": "Pepsi",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Orange Juice",
+    "Id": 25,
+    "Nazwa": "Mirinda",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Soda",
+    "Id": 26,
+    "Nazwa": "7Up",
+    "Cena": 5.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Sparkling Water",
+    "Id": 27,
+    "Nazwa": "Cisowianka Perlage",
+    "Cena": 3.50
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Sparkling Water",
+    "Id": 28,
+    "Nazwa": "Staropolanka",
+    "Cena": 3.00
+  },
+  {
+    "Pojemnosc": 330,
+    "Kategoria": "Soda",
+    "Id": 29,
+    "Nazwa": "Dr Pepper",
+    "Cena": 6.00
+  },
+  {
+    "Pojemnosc": 500,
+    "Kategoria": "Soda",
+    "Id": 30,
+    "Nazwa": "Mountain Dew",
+    "Cena": 5.50
+  },
+  {
+    "Pojemnosc": 100,
+    "Kategoria": "Energy Drink",
+    "Id": 31,
+    "Nazwa": "asedfasd",
+    "Cena": 3.00
+  }
+]

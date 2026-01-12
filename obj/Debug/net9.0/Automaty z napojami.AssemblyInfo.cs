@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Automaty z napojami")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bbdc4b4ee134a5f3dd432711e278518bb826861")]
 [assembly: System.Reflection.AssemblyProductAttribute("Automaty z napojami")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Automaty z napojami")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

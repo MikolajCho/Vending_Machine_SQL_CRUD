@@ -62,3 +62,4 @@ C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\ne
 C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.pdb
 C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.genruntimeconfig.cache
 C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\ref\Automaty z napojami.dll
+C:\Users\mjcho\source\repos\Automaty z napojami\Automaty z napojami\obj\Debug\net9.0\Automaty z napojami.sourcelink.json

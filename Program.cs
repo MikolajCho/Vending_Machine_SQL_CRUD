@@ -85,7 +85,7 @@ namespace Automaty_z_napojami
                                 Console.WriteLine("\n[!] WYDAWANIE: " + wybrany.Nazwa);
                                 if (saldo > 0) Console.WriteLine("[!] ZWROT RESZTY: " + saldo.ToString("0.00") + " zl");
                                 Console.ResetColor();
-                                saldo = 0; // Wydanie reszty i wyzerowanie automatu
+                                saldo = 0;
                                 Console.WriteLine("\nNacisnij dowolny klawisz..."); Console.ReadKey();
                             }
                             else
@@ -96,7 +96,7 @@ namespace Automaty_z_napojami
                             }
                         }
                     }
-                    catch { /* Ignorujemy bledne wpisy */ }
+                    catch { }
                 }
             }
         }
@@ -112,7 +112,10 @@ namespace Automaty_z_napojami
                 Console.ResetColor();
                 Console.WriteLine(" 1. Dodaj nowy napoj");
                 Console.WriteLine(" 2. Usun napoj z oferty");
+                Console.WriteLine(" 3. Eksportuj do JSON");
+                Console.WriteLine(" 4. Eksportuj do CSV");
                 Console.WriteLine(" 0. Powrot do menu");
+                Console.WriteLine("----------------------------------------------");
                 Console.Write(" Opcja: ");
 
                 string opcja = Console.ReadLine() ?? "";
@@ -131,6 +134,32 @@ namespace Automaty_z_napojami
                     int id = Convert.ToInt32(Console.ReadLine() ?? "0");
                     ds.UsunNapoj(id);
                     Console.WriteLine(" Produkt zostal usuniety."); Console.ReadKey();
+                }
+                else if (opcja == "3")
+                {
+                    try
+                    {
+                        string sciezka = ds.EksportujJSON();
+                        Console.WriteLine("\n[OK] Dane wyeksportowane.");
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("Lokalizacja pliku JSON: " + sciezka);
+                        Console.ResetColor();
+                    }
+                    catch (Exception ex) { Console.WriteLine("Blad: " + ex.Message); }
+                    Console.ReadKey();
+                }
+                else if (opcja == "4")
+                {
+                    try
+                    {
+                        string sciezka = ds.EksportujCSV();
+                        Console.WriteLine("\n[OK] Dane wyeksportowane.");
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("Lokalizacja pliku CSV: " + sciezka);
+                        Console.ResetColor();
+                    }
+                    catch (Exception ex) { Console.WriteLine("Blad: " + ex.Message); }
+                    Console.ReadKey();
                 }
                 else if (opcja == "0") powrot = true;
             }

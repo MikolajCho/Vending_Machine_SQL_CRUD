@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
+using System.IO;
+using System.Text.Json;
 
 namespace Automaty_z_napojami
 {
@@ -89,6 +91,31 @@ namespace Automaty_z_napojami
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public string EksportujJSON()
+        {
+            string nazwaPliku = "napoje_eksport.json";
+            var napoje = PobierzNapoje();
+            var opcje = new JsonSerializerOptions { WriteIndented = true, IncludeFields = true };
+            string jsonString = JsonSerializer.Serialize(napoje, opcje);
+            File.WriteAllText(nazwaPliku, jsonString);
+
+            return Path.GetFullPath(nazwaPliku);
+        }
+
+        public string EksportujCSV()
+        {
+            string nazwaPliku = "napoje_eksport.csv";
+            var napoje = PobierzNapoje();
+            using (StreamWriter sw = new StreamWriter(nazwaPliku))
+            {
+                sw.WriteLine("ID;Nazwa;Cena;Pojemnosc;Kategoria");
+                foreach (var n in napoje)
+                {
+                    sw.WriteLine($"{n.Id};{n.Nazwa};{n.Cena};{n.Pojemnosc};{n.Kategoria}");
+                }
+            }
+            return Path.GetFullPath(nazwaPliku);
+        }
     }
 }
-   

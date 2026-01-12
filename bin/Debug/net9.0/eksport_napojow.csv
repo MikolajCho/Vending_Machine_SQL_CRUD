@@ -1,0 +1,32 @@
+ID;Nazwa;Cena;Pojemnosc;Kategoria
+1;Coca-Cola Classic;5.50;500;Cola
+2;Coca-Cola Zero;1.00;10;Cola
+3;Cherry Coke;6.00;500;Cola
+4;Red Bull Original;8.50;250;Energy Drink
+5;Red Bull Sugarfree;8.50;250;Energy Drink
+6;Monster Energy;7.00;500;Energy Drink
+7;Tiger;4.50;250;Energy Drink
+8;Naleczowianka;3.00;500;Mineral Water
+9;Evian;6.50;500;Mineral Water
+10;San Pellegrino;7.00;500;Mineral Water
+11;Perrier;7.50;500;Mineral Water
+12;Vittel;4.00;500;Mineral Water
+13;Tymbark Pomarancza;4.50;330;Orange Juice
+14;Tymbark Jablko;4.50;330;Apple Juice
+15;Sok Tloczony;6.00;250;Apple Juice
+16;Lipton Peach;5.00;500;Ice Tea
+17;Lipton Green Tea;5.00;500;Ice Tea
+18;FuzeTea Lemon;5.00;500;Ice Tea
+19;Espresso;6.00;100;Coffee
+20;Latte Macchiato;9.00;250;Coffee
+21;Cappuccino;8.50;200;Coffee
+22;Oshee Blue;4.00;750;Isotonic
+23;Oshee Vitamin;4.50;500;Isotonic
+24;Pepsi;5.00;500;Soda
+25;Mirinda;5.00;500;Orange Juice
+26;7Up;5.00;500;Soda
+27;Cisowianka Perlage;3.50;500;Sparkling Water
+28;Staropolanka;3.00;500;Sparkling Water
+29;Dr Pepper;6.00;330;Soda
+30;Mountain Dew;5.50;500;Soda
+31;asedfasd;3.00;100;Energy Drink
